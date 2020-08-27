@@ -4,6 +4,27 @@
  */
 public class Jeroo extends JerooBase {
     // Put any methods here
+    
+    //this method turns the jeroo right
+    public void turnRight()
+{
+  turn(LEFT);
+  turn(LEFT);
+  turn(LEFT);
+  }
+ // this method turns the Jeroo up or down
+   public void turnVertical()
+{
+  turn(LEFT);
+  turn(LEFT);
+  }
+// this method makes the jeroo hop and plant
+    public void hopPlant()
+{
+  hop();
+  plant();
+  }
+    
 
     
     // Do NOT touch the code below here
