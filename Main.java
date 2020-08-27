@@ -48,10 +48,5 @@ mia.hop();
 mia.hopPlant();
 mia.hopPlant();
 mia.hop();
-  
-    
-    
-
-    
-
-}
+ 
+    }
